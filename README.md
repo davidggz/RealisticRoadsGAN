@@ -57,7 +57,11 @@ Para seleccionar qué modelo utilizar y en qué directorio inferir, se deben cam
 
 ## Resultados obtenidos por los modelos unimodales
 
+<img src="Imagenes/UnimodalUnido.png" alt="Resumen de resultados obtenidos con todos los modelos unimodales" width="900"/>
+
 ## Resultados obtenidos por los modelos multimodales
+
+<img src="Imagenes/ResumenMultimodales.png" alt="Resumen de resultados obtenidos con todos los modelos multimodales" width="900"/>
 
 ## Autor
 David González González <a href="https://www.linkedin.com/in/david-gonzalez-gonzalez/">LinkedIn</a>
