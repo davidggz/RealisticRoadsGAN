@@ -10,7 +10,7 @@ Para poder llevar a cabo este proyecto, ha sido necesario utilizar como base el 
 
 Por último, el trabajo de fin de carrera termina con la **implementación de un sistema de conducción autónoma** capaz de conducir en algunos circuitos aleatorios utilizando las imágenes generadas por la GAN.
 
-## Modelos de síntesis de carreteras realistas <img src="Imagenes/nn.png" width=40px>
+## Modelos de síntesis de carreteras realistas <img src="Imagenes/nn.png" width=45px>
 
 Los modelos que se muestran en la siguiente tabla han sido entrenados con distintos conjuntos de imágenes que se explican en la memoria del trabajo de fin de grado. Algunos de ellos son ampliamente conocidos, como *Cityscapes* o ADE20K, pero igualmente se van a puntualizar algunos datos.
 
@@ -43,7 +43,7 @@ Los modelos que se muestran en la siguiente tabla han sido entrenados con distin
 | **Arquitectura**: GAUGAN con VAE <br> ***Data sets***: *Cityscapes* (3.475) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Transient Attributes* (8.571 imágenes) | <a href="https://mega.nz/file/fIUGHArD#xi5CC5UO4IEutZ1R8tz7IQxGMrJiu5ypJjBu9vKwgQQ"> Download </a> |
 | **Arquitectura**: GAUGAN con VAE <br> ***Data sets***: *Cityscapes* (3.475) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ADE20K (8.363 imágenes) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Transient Attributes* (8.571 imágenes) | <a href="https://mega.nz/file/GRdUGAbD#Qh8i7wSXwf4WYNbtETqkdydTvGtrfaUeKAFkCGdnVVk"> Download </a> |
 
-## Tutorial de uso de los modelos de síntesis de carreteras realistas <img src="Imagenes/tutorial.png" width=40px>
+## Tutorial de uso de los modelos de síntesis de carreteras realistas <img src="Imagenes/tutorial.png" width=45px>
 
 Para poder ejecutar los modelos, se recomienda utilizar uno de los programas que se utilizó durante el desarrollo de la solución. Los únicos requisitos necesarios para ejecutar los modelos son los mismos que aparecen en el repositorio de la respectiva arquitectura. Es decir, si se intenta utilizar un modelo de Pix2PixHD, será necesario tener todos los requisitos de su repositorio. En concreto, los repositorios que se utilizaron fueron: <a href="https://github.com/NVIDIA/pix2pixHD">Pix2PixHD</a> y <a href="https://github.com/NVlabs/SPADE">GAUGAN</a>.
 
@@ -65,8 +65,8 @@ Para seleccionar qué modelo utilizar y en qué directorio inferir, se deben cam
 
 <img src="Imagenes/ResumenMultimodales.png" alt="Resumen de resultados obtenidos con todos los modelos multimodales" width="900"/>
 
-## Autor
+## Autor <img src="Imagenes/autor.png" width=40px>
 David González González <a href="https://www.linkedin.com/in/david-gonzalez-gonzalez/">LinkedIn</a>
 
-## Tutor
+## Tutor <img src="Imagenes/profesor.png" width=45px>
 Juan Manuel Alonso Weber <a href="https://www.inf.uc3m.es/component/comprofiler/userprofile/jmaw">Perfil de la universidad</a>
