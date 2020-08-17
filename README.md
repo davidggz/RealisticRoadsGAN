@@ -56,12 +56,12 @@ Los ficheros para hacer la inferencia son los siguientes:
 <a href="https://mega.nz/file/Lc0DlKqC#rMNP6tKF7ks8Gnq-UQAF0JM9gqqvkDMzYu88jJB5d88">Fichero de inferencia con GAUGAN con VAE</a>
 
 Para seleccionar qué modelo utilizar y en qué directorio inferir, se deben cambiar las opciones que aparecen al inicio de cada fichero entre los comentarios **"PROGRAM OPTIONS"**.
-
-## Resultados obtenidos por los modelos unimodales
+## Resultados obtenidos por todos los modelos de síntesis de carreteras realistas <img src="Imagenes/resultados.png" width=40px>
+### Resultados obtenidos por los modelos unimodales
 
 <img src="Imagenes/UnimodalUnido.png" alt="Resumen de resultados obtenidos con todos los modelos unimodales" width="900"/>
 
-## Resultados obtenidos por los modelos multimodales
+### Resultados obtenidos por los modelos multimodales
 
 <img src="Imagenes/ResumenMultimodales.png" alt="Resumen de resultados obtenidos con todos los modelos multimodales" width="900"/>
 
