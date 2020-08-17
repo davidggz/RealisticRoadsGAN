@@ -1,6 +1,8 @@
 # Conducción autónoma con el uso de imágenes sintetizadas con Redes Generativas Adversarias
 
-**Link de la memoria:** https://e-archivo.uc3m.es/ (Actualizado cuando esté disponible)
+**Link de la memoria del trabajo:** https://e-archivo.uc3m.es/ (Actualizado cuando esté disponible)
+
+## Resumen del trabajo <img src="Imagenes/Resumen.png" width=40px>
 
 La conducción autónoma es un tema latente actualmente y cualquier tipo de mejora y nuevo acercamiento que se pueda ofrecer puede llegar a ser determinante. En este trabajo de fin de carrera se muestra un nuevo enfoque que consiste en la utilización de **Redes Generativas Adversarias** para generar imágenes de **carreteras realistas** que puedan ser utilizadas como apoyo para conjuntos de imágenes de Conducción Autónoma. Esto puede **acortar los tiempos de obtención de conjuntos de imágenes etiquetadas**, permitiendo que conjuntos de imágenes previamente muy escasos, comiencen a tener una buena cantidad de imágenes y variabilidad.
 
@@ -8,7 +10,7 @@ Para poder llevar a cabo este proyecto, ha sido necesario utilizar como base el 
 
 Por último, el trabajo de fin de carrera termina con la **implementación de un sistema de conducción autónoma** capaz de conducir en algunos circuitos aleatorios utilizando las imágenes generadas por la GAN.
 
-## Modelos de síntesis de carreteras realistas
+## Modelos de síntesis de carreteras realistas <img src="Imagenes/nn.png" width=40px>
 
 Los modelos que se muestran en la siguiente tabla han sido entrenados con distintos conjuntos de imágenes que se explican en la memoria del trabajo de fin de grado. Algunos de ellos son ampliamente conocidos, como *Cityscapes* o ADE20K, pero igualmente se van a puntualizar algunos datos.
 
@@ -41,7 +43,7 @@ Los modelos que se muestran en la siguiente tabla han sido entrenados con distin
 | **Arquitectura**: GAUGAN con VAE <br> ***Data sets***: *Cityscapes* (3.475) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Transient Attributes* (8.571 imágenes) | <a href="https://mega.nz/file/fIUGHArD#xi5CC5UO4IEutZ1R8tz7IQxGMrJiu5ypJjBu9vKwgQQ"> Download </a> |
 | **Arquitectura**: GAUGAN con VAE <br> ***Data sets***: *Cityscapes* (3.475) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ADE20K (8.363 imágenes) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Transient Attributes* (8.571 imágenes) | <a href="https://mega.nz/file/GRdUGAbD#Qh8i7wSXwf4WYNbtETqkdydTvGtrfaUeKAFkCGdnVVk"> Download </a> |
 
-## Tutorial de uso de los modelos de síntesis de carreteras realistas
+## Tutorial de uso de los modelos de síntesis de carreteras realistas <img src="Imagenes/tutorial.png" width=40px>
 
 Para poder ejecutar los modelos, se recomienda utilizar uno de los programas que se utilizó durante el desarrollo de la solución. Los únicos requisitos necesarios para ejecutar los modelos son los mismos que aparecen en el repositorio de la respectiva arquitectura. Es decir, si se intenta utilizar un modelo de Pix2PixHD, será necesario tener todos los requisitos de su repositorio. En concreto, los repositorios que se utilizaron fueron: <a href="https://github.com/NVIDIA/pix2pixHD">Pix2PixHD</a> y <a href="https://github.com/NVlabs/SPADE">GAUGAN</a>.
 
