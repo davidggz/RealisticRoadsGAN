@@ -1,4 +1,4 @@
-# Conducción autónoma con el uso de imágenes sintetizadas con Redes Generativas Adversarias
+# Generación de carreteras realistas con Redes Generativas Adversarias
 
 **Link de la memoria del trabajo:** https://e-archivo.uc3m.es/ (Actualizado cuando esté disponible)
 
