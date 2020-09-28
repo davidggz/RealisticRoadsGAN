@@ -4,11 +4,9 @@
 
 ## Resumen del trabajo <img src="Imagenes/Resumen.png" width=40px>
 
-La conducción autónoma es un tema latente actualmente y cualquier tipo de mejora y nuevo acercamiento que se pueda ofrecer puede llegar a ser determinante. En este trabajo de fin de carrera se muestra un nuevo enfoque que consiste en la utilización de **Redes Generativas Adversarias** para generar imágenes de **carreteras realistas** que puedan ser utilizadas como apoyo para conjuntos de imágenes de Conducción Autónoma. Esto puede **acortar los tiempos de obtención de conjuntos de imágenes etiquetadas**, permitiendo que conjuntos de imágenes previamente muy escasos, comiencen a tener una buena cantidad de imágenes y variabilidad.
+La conducción autónoma es un tema latente actualmente y cualquier tipo de mejora y nuevo acercamiento que se pueda ofrecer puede llegar a ser determinante. En este trabajo se muestra un nuevo enfoque que consiste en la utilización de **Redes Generativas Adversarias** para generar imágenes de **carreteras realistas** que puedan ser utilizadas como apoyo para conjuntos de imágenes de Conducción Autónoma. Esto puede **acortar los tiempos de obtención de conjuntos de imágenes realistas** en situaciones determinadas, permitiendo que conjuntos de imágenes previamente muy escasos, comiencen a tener una buena cantidad de imágenes y variabilidad.
 
-Para poder llevar a cabo este proyecto, ha sido necesario utilizar como base el simulador que el usuario de GitHub **tawnkramer** ofrece en su repositorio (https://github.com/tawnkramer/sdsandbox). Se han hecho múltiples modificaciones a este simulador entre las que destacan la **generación de circuitos aleatorios con mapas de Kohonen** y la implementación de una **infraestructura cliente-servidor que permite transmitir imágenes de gran tamaño**.
-
-Por último, el trabajo de fin de carrera termina con la **implementación de un sistema de conducción autónoma** capaz de conducir en algunos circuitos aleatorios utilizando las imágenes generadas por la GAN.
+Para poder llevar a cabo este proyecto, ha sido necesario utilizar como base el simulador que el usuario de GitHub **tawnkramer** ofrece en su repositorio (https://github.com/tawnkramer/sdsandbox). Se han hecho múltiples modificaciones a este simulador entre las que destacan la **generación de circuitos aleatorios con mapas de Kohonen** y la implementación de una **infraestructura cliente-servidor que permite transmitir imágenes de gran tamaño**. También se implementa un **sistema de conducción autónoma** capaz de conducir en algunos circuitos aleatorios con imágenes generadas por las GAN.
 
 ## Modelos de síntesis de carreteras realistas <img src="Imagenes/nn.png" width=45px>
 
