@@ -1,6 +1,6 @@
 # Generación de carreteras realistas con Redes Generativas Adversarias
 
-**Link de la memoria del trabajo:** https://e-archivo.uc3m.es/ (Actualizado cuando esté disponible)
+**Link de la memoria del trabajo:** https://e-archivo.uc3m.es/handle/10016/32120
 
 ## Resumen del trabajo <img src="Imagenes/Resumen.png" width=40px>
 
